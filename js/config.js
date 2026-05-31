@@ -20,15 +20,74 @@ const SITE_CONFIG = {
     version: '1.0.3'
 };
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+    ruyi: {
+        api: 'https://cj.rycjapi.com/api.php/provide/vod',
+        name: '如意资源',
+        adult: false
+    },
+    baofeng: {
+        api: 'https://bfzyapi.com/api.php/provide/vod',
+        name: '暴风资源',
+        adult: false
+    },
+    tianya: {
+        api: 'https://tyyszy.com/api.php/provide/vod',
+        name: '天涯资源',
+        adult: false
+    },
+    feifan: {
+        api: 'https://ffzy5.tv/api.php/provide/vod',
+        name: '非凡影视',
+        adult: false
+    },
+    heimuer: {
+        api: 'https://json.heimuer.xyz/api.php/provide/vod',
+        name: '黑木耳',
+        adult: false
+    },
+    wujin: {
+        api: 'https://api.wujinapi.me/api.php/provide/vod',
+        name: '无尽资源',
+        adult: false
+    },
+    baiduyun: {
+        api: 'https://api.apibdzy.com/api.php/provide/vod',
+        name: '百度云资源',
+        adult: false
+    },
+    _360: {
+        api: 'https://360zy.com/api.php/provide/vod',
+        name: '360资源',
+        adult: false
+    },
+    liangzi: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod',
+        name: '量子资源',
+        adult: false
+    },
+    hongniu: {
+        api: 'https://hongniuziyuan.com/api.php/provide/vod',
+        name: '红牛资源',
+        adult: false
+    },
+    _88: {
+        api: 'http://www.88zyw.net/api.php/provide/vod',
+        name: '88资源网',
+        adult: false
+    },
+    itono: {
+        api: 'http://zy.itono.cn/V10.php',
+        name: 'ITONO资源站',
+        adult: false
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
 };
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // 定义合并方法
 function extendAPISites(newSites) {
